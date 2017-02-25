@@ -1,0 +1,51 @@
+<html>
+  <head>
+  <title>Disable right click</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body ng-app="app">
+    <div ng-controller="MainController">
+    <!--    navbar starts -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Disable Mouse Right Click Demo</a>
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!--    navbar ends   -->
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Simple Directive to disable right click</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6" disable-right-click>
+          <h2>With Right Click Disabled</h2>
+          <hr>
+          <h3>Text</h3>
+          <p>8-bit skateboard hammock, vaporware trust fund hexagon green juice tacos twee keytar coloring book pok pok. Activated charcoal waistcoat plaid, kombucha tilde live-edge pinterest stumptown blog. Poutine pork belly health goth copper mug lomo. Farm-to-table retro organic, hell of tumeric meditation ethical cornhole stumptown you probably haven't heard of them vape bicycle rights banh mi shoreditch. Four dollar toast kinfolk skateboard roof party waistcoat truffaut. VHS chambray farm-to-table meditation, shabby chic paleo helvetica you probably haven't heard of them normcore actually food truck raw denim. Lumbersexual brunch cornhole, before they sold out thundercats roof party quinoa synth keffiyeh.
+          </p>
+          <h3>Image</h3>
+          <img class="full-width" src="http://gif-finder.com/wp-content/uploads/2016/01/Kung-Fu-Panda-3-Epic-Reaction.gif" alt="kung fu panda">
+        </div>
+        <div class="col-md-6">
+          <h2>With Right Click Enabled</h2>
+          <hr>
+          <h3>Text</h3>
+          <p>8-bit skateboard hammock, vaporware trust fund hexagon green juice tacos twee keytar coloring book pok pok. Activated charcoal waistcoat plaid, kombucha tilde live-edge pinterest stumptown blog. Poutine pork belly health goth copper mug lomo. Farm-to-table retro organic, hell of tumeric meditation ethical cornhole stumptown you probably haven't heard of them vape bicycle rights banh mi shoreditch. Four dollar toast kinfolk skateboard roof party waistcoat truffaut. VHS chambray farm-to-table meditation, shabby chic paleo helvetica you probably haven't heard of them normcore actually food truck raw denim. Lumbersexual brunch cornhole, before they sold out thundercats roof party quinoa synth keffiyeh.
+          </p>
+          <h3>Image</h3>
+          <img class="full-width" src="http://gif-finder.com/wp-content/uploads/2016/01/Kung-Fu-Panda-3-Epic-Reaction.gif" alt="kung fu panda">
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/directives/disable-right-click.js"></script>
+    </div>
+  </body>
+</html>
